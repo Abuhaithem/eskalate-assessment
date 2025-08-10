@@ -52,12 +52,19 @@ function App() {
 
   const handleUpdateFood = async (id, foodData) => {
     try {
+      console.log('Updating food with ID:', id);
+      console.log('Food data being sent:', foodData);
+      
       const response = await axios.put(`/api/foods/${id}`, foodData);
+      console.log('Update response:', response.data);
+      
       setFoods(foods.map(food => food.id === id ? response.data : food));
       setEditingFood(null);
       setError(null);
-    } catch (err) {
-      setError(err.response?.data?.error || 'Failed to update food item');
+    } catch (error) {
+      console.error('Update error:', error);
+      console.error('Error response:', error.response?.data);
+      setError(error.response?.data?.error || 'Failed to update food item');
     }
   };
 

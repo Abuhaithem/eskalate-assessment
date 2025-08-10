@@ -14,7 +14,7 @@ let foods = [
   {
     id: 1,
     name: "Margherita Pizza",
-    description: "Classic tomato and mozzarella pizza",
+    description: "Classic tomato and mozzarella pizza with fresh basil",
     price: 12.99,
     category: "Italian",
     restaurantId: 1,
@@ -23,11 +23,101 @@ let foods = [
   {
     id: 2,
     name: "Chicken Burger",
-    description: "Grilled chicken with fresh vegetables",
+    description: "Grilled chicken with fresh vegetables and special sauce",
     price: 8.99,
     category: "American",
     restaurantId: 2,
     imageUrl: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400"
+  },
+  {
+    id: 3,
+    name: "Sushi Roll Combo",
+    description: "Fresh salmon, tuna, and avocado rolls with wasabi and ginger",
+    price: 18.99,
+    category: "Japanese",
+    restaurantId: 3,
+    imageUrl: "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=400"
+  },
+  {
+    id: 4,
+    name: "Caesar Salad",
+    description: "Crisp romaine lettuce, parmesan cheese, croutons with caesar dressing",
+    price: 9.99,
+    category: "Salad",
+    restaurantId: 1,
+    imageUrl: "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=400"
+  },
+  {
+    id: 5,
+    name: "Beef Tacos",
+    description: "Seasoned ground beef with lettuce, cheese, and salsa in corn tortillas",
+    price: 11.99,
+    category: "Mexican",
+    restaurantId: 4,
+    imageUrl: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400"
+  },
+  {
+    id: 6,
+    name: "Pasta Carbonara",
+    description: "Spaghetti with eggs, cheese, pancetta, and black pepper",
+    price: 14.99,
+    category: "Italian",
+    restaurantId: 1,
+    imageUrl: "https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?w=400"
+  },
+  {
+    id: 7,
+    name: "Fish & Chips",
+    description: "Crispy battered cod with golden fries and tartar sauce",
+    price: 13.99,
+    category: "British",
+    restaurantId: 2,
+    imageUrl: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400"
+  },
+  {
+    id: 8,
+    name: "Chicken Curry",
+    description: "Spicy chicken curry with rice, naan bread, and chutney",
+    price: 16.99,
+    category: "Indian",
+    restaurantId: 5,
+    imageUrl: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400"
+  },
+  {
+    id: 9,
+    name: "Steak Frites",
+    description: "Grilled ribeye steak with crispy french fries and herb butter",
+    price: 24.99,
+    category: "French",
+    restaurantId: 6,
+    imageUrl: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400"
+  },
+  {
+    id: 10,
+    name: "Ramen Bowl",
+    description: "Rich pork broth with noodles, soft-boiled egg, and chashu pork",
+    price: 15.99,
+    category: "Japanese",
+    restaurantId: 3,
+    imageUrl: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=400"
+  },
+  {
+    id: 11,
+    name: "Greek Gyro",
+    description: "Marinated lamb with tzatziki sauce, tomatoes, and onions in pita",
+    price: 10.99,
+    category: "Greek",
+    restaurantId: 7,
+    imageUrl: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400"
+  },
+  {
+    id: 12,
+    name: "Chocolate Cake",
+    description: "Rich chocolate layer cake with chocolate ganache and fresh berries",
+    price: 7.99,
+    category: "Dessert",
+    restaurantId: 8,
+    imageUrl: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400"
   }
 ];
 
@@ -45,6 +135,48 @@ let restaurants = [
     cuisine: "American",
     address: "456 Oak Ave, City",
     rating: 4.2
+  },
+  {
+    id: 3,
+    name: "Sakura Sushi",
+    cuisine: "Japanese",
+    address: "789 Cherry Blossom Ln, City",
+    rating: 4.7
+  },
+  {
+    id: 4,
+    name: "El Mariachi",
+    cuisine: "Mexican",
+    address: "321 Taco Way, City",
+    rating: 4.4
+  },
+  {
+    id: 5,
+    name: "Spice Garden",
+    cuisine: "Indian",
+    address: "654 Curry Rd, City",
+    rating: 4.6
+  },
+  {
+    id: 6,
+    name: "Le Bistro",
+    cuisine: "French",
+    address: "987 Eiffel Ave, City",
+    rating: 4.8
+  },
+  {
+    id: 7,
+    name: "Athena's",
+    cuisine: "Greek",
+    address: "147 Olive St, City",
+    rating: 4.3
+  },
+  {
+    id: 8,
+    name: "Sweet Dreams",
+    cuisine: "Dessert",
+    address: "258 Sugar Pl, City",
+    rating: 4.5
   }
 ];
 
