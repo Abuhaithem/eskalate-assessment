@@ -1,0 +1,19 @@
+{
+  "name": "eskalate-food-management",
+  "version": "1.0.0",
+  "description": "Food Management System - A2SV Eskalate Assessment",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": ["food", "management", "api", "react", "node"],
+  "author": "A2SV Candidate",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+} 
